@@ -4,4 +4,17 @@ for y in salary:
     shumaEpagave = shumaEpagave + y
 print(f"shuma e pagave eshte: {shumaEpagave}")
 pagamesatare = shumaEpagave / len(salary)
-print(f"paga mesatare eshte:{pagamesatare}")
+print(pagamesatare)
+
+pagaMin = salary[0]
+for pagaaktuale in salary :
+    if(pagaaktuale < pagaMin):
+        pagaMin = pagaaktuale
+print(f"paga minimale eshte : {pagaMin}")
+
+pagaMin = salary[0]
+for pagaaktuale in salary :
+    if(pagaaktuale > pagaMin):
+        pagaMin = pagaaktuale
+print(f"paga maksimale eshte : {pagaMin}")
+
